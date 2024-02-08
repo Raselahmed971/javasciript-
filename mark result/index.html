@@ -35,30 +35,54 @@ if (lowercaseLetter == "a" || lowercaseLetter == "e" || lowercaseLetter == "i" |
     document.write("Consonant");
 } */
 
-        var digit = prompt('enter the digit');
+// var number = prompt("Enter the number:");
 
-        switch (digit){
-            case "1":
-                document.write("one");
-                break;
-            case "2":
-                document.write("two");
-                break;
-            case "3":
-                document.write("tree");
-                break;
-            case "4":
-                document.write("Four");
-                break;
-            case "5":
-                document.write("five");
-                break;
-            case "6":
-                document.write("Six");
-                break;
-            default:
-                    document.write("invalid");
-        }
+// switch (number) {
+//     case "1":
+//         document.write('one');
+//         break;
+//     case "2":
+//         document.write('two');
+//         break;
+//     case "3":
+//         document.write('three');
+//         break;
+//     case "4":
+//         document.write('four');
+//         break;
+//     case "5":
+//         document.write('five');
+//         break;
+//     default:
+//         document.write('invalid');
+// }
+
+
+var number = parseInt(prompt("Enter the first number: "));
+var number2 = parseInt(prompt("Enter the second number: "));
+
+var sum = 0;
+
+for(var i = number; i<= number2; i++ ){
+    sum += i;
+}
+
+document.write("Sum: " + sum);
+
+// var number = parseInt(prompt("Enter the first number: "));
+// var number2 = parseInt(prompt("Enter the second number: "));
+
+// var sum = 0;
+
+// for(var i = number; i <= number2; i++) {
+//     sum += i;
+// }
+
+// document.write("Sum: " + sum);
+
+
+
+
 
     </script>
 </body>
